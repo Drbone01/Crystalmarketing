@@ -1425,6 +1425,9 @@ h3 {
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
 .about_info_area.plus_padding {
   padding-top: 100px;
+
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -1443,7 +1446,7 @@ h3 {
 .about_info_area .about_text h3 {
   font-size: 46px;
   font-weight: 300;
-  color: #001D38;
+  color: #ff0000;
 }
 
 @media (max-width: 767px) {
@@ -1465,7 +1468,7 @@ h3 {
 .about_info_area .about_texts p {
   font-size: 15px;
   font-weight: 400;
-  color: #ff0000;
+  color: #727272;
   margin-bottom: 24px;
   margin-top: 10px;
 }
@@ -7337,3 +7340,16 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+ul .about_texts{
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
